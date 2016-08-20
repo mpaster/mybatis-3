@@ -767,13 +767,13 @@ resultMap 元素有很多子元素和一个值得讨论的结构。
             </ul>
           </li>
           <li>
-            <code>collection</code> – 复杂类型的集
+            <code>collection</code> – 复杂类型的集合
             <ul>
-              <li>嵌入结果映射 – 结果映射自身的集,或者参考一个</li>
+              <li>嵌套的结果映射 – 结果映射可以是 resultMap ,也可以引用其它的 resultMap</li>
             </ul>
           </li>
           <li>
-            <code>discriminator</code> – 使用结果值来决定使用哪个结果映射
+            <code>discriminator</code> – 通过结果值来决定使用哪个结果映射
             <ul>
               <li>
                 <code>case</code> – 基于某些值的结果映射
